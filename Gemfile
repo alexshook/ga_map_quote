@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '2.1.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
-
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -43,3 +42,17 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# automatically reload your browser when 'view' files are modified.
+group :development do
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
+  gem 'sqlite3'
+  gem 'pry-rails'
+end
+
+# pg is gor PostgreSQL and heroku
+group :production do
+  gem 'pg', '~> 0.17.1'
+  gem 'rails_12factor'
+end
