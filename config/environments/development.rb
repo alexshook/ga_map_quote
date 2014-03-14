@@ -37,5 +37,4 @@ GaMapQuote::Application.configure do
 #redis server
   ENV["REDISTOGO_URL"] = 'redis://username:password@my.host:6389'
 
-
 end
