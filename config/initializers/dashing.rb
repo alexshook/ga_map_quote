@@ -9,9 +9,9 @@ Dashing.configure do |config|
   # config.redis_port     = '6379'
   # config.redis_password = nil
 
-  config.redis_host     = URI.parse(ENV["REDISTOGO_URL"]).host
-  config.redis_port     = URI.parse(ENV["REDISTOGO_URL"]).port
-  config.redis_password = URI.parse(ENV["REDISTOGO_URL"]).password
+  # config.redis_host     = URI.parse(ENV["REDISTOGO_URL"]).host
+  # config.redis_port     = URI.parse(ENV["REDISTOGO_URL"]).port
+  # config.redis_password = URI.parse(ENV["REDISTOGO_URL"]).password
 
   # Redis namespace when pushing new data.
   # config.redis_namespace = 'dashing_events'
