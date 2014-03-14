@@ -26,4 +26,12 @@ GaMapQuote::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  #allowing concurrency for unicorn
+  config.allow_concurrency = true
+
+  #from devise config terminal output
+  #port set to 5000 for unicorn server
+  config.action_mailer.default_url_options = { :host => 'localhost:5000' }
+
 end

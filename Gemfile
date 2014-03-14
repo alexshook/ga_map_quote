@@ -57,3 +57,12 @@ group :production do
   gem 'pg', '~> 0.17.1'
   gem 'rails_12factor'
 end
+
+#multi threaded server
+gem 'unicorn'
+
+#dashboard for admin user
+gem 'dashing-rails'
+
+#devise for admin users
+gem 'devise'

@@ -3,6 +3,43 @@
     display: block;
 }
 
+/* intro index page styles */
+#intro {
+  font-size: 28px;
+  font-size: 2.8rem;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  margin: 50px auto 0 auto;
+  margin: 5rem auto 0 auto;
+}
+
+/* quote index page styles */
+#quote {
+  position: absolute;
+  font-size: 52px;
+  font-size: 5.2rem;
+  color: #707070;
+  text-align: center;
+  padding: 10px;
+  margin: 150px 300px 0 300px ;
+  margin: 15rem 30rem 0 30rem;
+  z-index: 2;
+}
+
+/* index page style for glyphicon */
+#comment {
+  position: absolute;
+  text-align: center;
+  color: #e0e0e0;
+  opacity: .5;
+  font-size: 500px;
+  font-size: 50rem;
+  margin: 5px 300px 0 300px;
+  margin: .5rem 30rem 0 30rem;
+  z-index: 1;
+}
+
 @import url("//fonts.googleapis.com/css?family=Raleway:400,700");
 /*!
  * Bootswatch v3.1.1
