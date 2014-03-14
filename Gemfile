@@ -60,9 +60,13 @@ end
 
 #multi threaded server
 gem 'unicorn'
+# gem 'puma'
 
 #dashboard for admin user
 gem 'dashing-rails'
 
 #devise for admin users
 gem 'devise'
+
+#server redis for heroku
+gem 'redis'
