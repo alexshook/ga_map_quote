@@ -22,23 +22,25 @@
   color: #707070;
   text-align: center;
   padding: 10px;
-  margin: 150px 300px 0 300px ;
-  margin: 15rem 30rem 0 30rem;
+  margin: 150px auto 0;
+  margin: 15rem auto 0;
   z-index: 2;
 }
 
 /* index page style for glyphicon */
-#comment {
+#commentglyph {
   position: absolute;
   text-align: center;
   color: #e0e0e0;
   opacity: .5;
-  font-size: 500px;
-  font-size: 50rem;
-  margin: 5px 300px 0 300px;
-  margin: .5rem 30rem 0 30rem;
+  font-size: 550px;
+  font-size: 55rem;
+  margin: 10px auto 0 ;
+  margin: 1rem auto 0 ;
   z-index: 1;
 }
+
+/* body top padding added below to prevent navbar overlap */
 
 @import url("//fonts.googleapis.com/css?family=Raleway:400,700");
 /*!
@@ -56,6 +58,7 @@ html {
 }
 body {
   margin: 0;
+  padding-top: 60px;
 }
 article,
 aside,

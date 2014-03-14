@@ -1,0 +1,14 @@
+<div class="col-md-6">
+
+  <h1>Submit a quote for approval: </h1>
+  <%= form_for @quote do |f| %>
+
+    <br />
+
+    <h4><%= f.label :quote %></h4>
+      <%= f.text_field :quote, placeholder: "Type the quote you want to add.", class: "form-control" %><br />
+
+    <div><%= f.submit "Submit Quote", class: "btn btn-default btn-md" %></div>
+  <% end %>
+
+</div>
