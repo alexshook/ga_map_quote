@@ -32,7 +32,7 @@ GaMapQuote::Application.configure do
 
   #from devise config terminal output
   #port set to 5000 for unicorn server
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'localhost:5000' }
 
 #redis server
   ENV["REDISTOGO_URL"] = 'redis://username:password@my.host:6389'

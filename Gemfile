@@ -70,3 +70,6 @@ gem 'devise'
 
 #server redis for heroku
 gem 'redis'
+
+#redis recommends
+# gem 'system-timer'
