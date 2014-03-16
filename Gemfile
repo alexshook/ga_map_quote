@@ -59,8 +59,8 @@ group :production do
 end
 
 #multi threaded server
-gem 'unicorn'
-# gem 'puma'
+# gem 'unicorn'
+gem 'puma'
 
 #dashboard for admin user
 gem 'dashing-rails'
