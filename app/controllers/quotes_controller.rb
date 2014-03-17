@@ -1,5 +1,6 @@
 class QuotesController < ApplicationController
-  before_action :authenticate_user!, except: :index
+
+  before_filter :authenticate!, except: :index
 
   def index
     @quotes = Quote.all
@@ -37,4 +38,9 @@ class QuotesController < ApplicationController
   def quote_params
     params.require(:quote).permit(:quote)
   end
+
+  def authenticate!
+    redirect_to root_path unless user_signed_in? or admin_signed_in?
+  end
+
 end

@@ -63,7 +63,7 @@ end
 gem 'puma'
 
 #dashboard for admin user
-gem 'dashing-rails'
+# gem 'dashing-rails'
 
 #devise for admin users
 gem 'devise'
