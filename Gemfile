@@ -68,6 +68,9 @@ gem 'dashing-rails'
 #devise for admin users
 gem 'devise'
 
+# allows users to invite other users
+gem 'devise_invitable'
+
 #server redis for heroku
 gem 'redis'
 
