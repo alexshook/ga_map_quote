@@ -62,17 +62,8 @@ end
 # gem 'unicorn'
 gem 'puma'
 
-#dashboard for admin user
-gem 'dashing-rails'
-
 #devise for admin users
 gem 'devise'
 
 # allows users to invite other users
 gem 'devise_invitable'
-
-#server redis for heroku
-gem 'redis'
-
-#redis recommends
-# gem 'system-timer'
