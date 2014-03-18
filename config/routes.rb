@@ -1,7 +1,5 @@
 GaMapQuote::Application.routes.draw do
 
-  # mount Dashing::Engine, at: Dashing.config.engine_path
-
   root to: "quotes#index"
   get "/about", to: "pages#about"
 
