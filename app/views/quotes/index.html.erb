@@ -1,5 +1,8 @@
-<% @quotes.each do |q| %>
-  <ul>
-    <li><%= q.quote %></li>
-  </ul>
-<% end %>
+<div id="quotesindex">
+  <h2>Here's a list of user-submitted quotes:</h2>
+    <% @quotes.each do |quote| %>
+      <ul>
+        <li><%= link_to quote.quote, quote %></li>
+      </ul>
+    <% end %>
+</div>
