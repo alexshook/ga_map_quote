@@ -45,19 +45,19 @@
 
           <!-- devise -->
           <ul class="nav navbar-nav navbar-right">
-        <% if user_signed_in? || admin_signed_in? %>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><%= link_to "View Profile", current_user %></li>
-                <li><%#= link_to "Edit Profile", edit_user_path(@user) %></li>
-              </ul>
-             <li><%= link_to "Log Out", destroy_user_session_path, method: :delete, class: 'navbar-link' %></li>
-        <% else %>
-          <li><%= link_to "Log In", new_user_session_path, class: 'navbar-link' %></li>
-          <li><%= link_to "Sign Up", new_user_registration_path, class: 'navbar-link' %></li>
-    <% end %>
-      </ul>
+          <% if user_signed_in? || admin_signed_in? %>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><%= link_to "View Profile", current_user %></li>
+                  <li><%#= link_to "Edit Profile", edit_user_path(@user) %></li>
+                </ul>
+               <li><%= link_to "Log Out", destroy_user_session_path, method: :delete, class: 'navbar-link' %></li>
+          <% else %>
+            <li><%= link_to "Log In", new_user_session_path, class: 'navbar-link' %></li>
+            <li><%= link_to "Sign Up", new_user_registration_path, class: 'navbar-link' %></li>
+          <% end %>
+        </ul>
     </div><!-- /.navbar-collapse -->
   </nav>
 
