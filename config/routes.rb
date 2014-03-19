@@ -1,7 +1,9 @@
 GaMapQuote::Application.routes.draw do
+  root to: "pages#root"
 
-  root to: "quotes#index"
   get "/about", to: "pages#about"
+
+  get "quotes/index"
 
   devise_for :admins
   devise_for :users

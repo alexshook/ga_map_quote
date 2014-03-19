@@ -3,7 +3,7 @@
     display: block;
 }
 
-/* intro index page styles */
+/* intro page styles */
 #intro {
   font-size: 28px;
   font-size: 2.8rem;
@@ -14,7 +14,7 @@
   margin: 5rem auto 0 auto;
 }
 
-/* quote index page styles */
+/* quote page styles */
 #quote {
   position: absolute;
   font-size: 52px;
@@ -40,6 +40,18 @@
   z-index: 1;
 }
 
+#submitquote {
+  float: right;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #707070;
+  padding: 125px;
+  margin: 150px auto 0;
+  margin: 15rem auto 0;
+  z-index: 2;
+
+}
+
 /* body top padding added below to prevent navbar overlap */
 
 @import url("//fonts.googleapis.com/css?family=Raleway:400,700");
@@ -58,7 +70,7 @@ html {
 }
 body {
   margin: 0;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 article,
 aside,
@@ -2421,7 +2433,7 @@ input[type="button"].btn-block {
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
