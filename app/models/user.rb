@@ -4,5 +4,5 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable, :registerable
   # :registerable has been removed to make the site by invitation only
   devise :database_authenticatable,
-         :recoverable, :rememberable, :trackable, :validatable, :invitable
+         :recoverable, :rememberable, :trackable, :validatable, :invitable,:registerable
 end
